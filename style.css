@@ -153,73 +153,84 @@ section {
 
 @media (max-width:768px) {
     .section1 .logo {
-        width: 250px;
+        width: 200px;
+    }
+
+    .navigation {
+        width: 130px;
     }
 
     .toggle {
         height: 5vh;
-        width: 5vw;
+        width: 7vw;
     }
 
     .cgr {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .submenu {
         font-size: 15px;
+        width: 120px;
     }
 
     .section1 .para1 {
         font-size: 20px;
+        width: 120px;
     }
 
     .section1 .special fieldset {
-        height: 16vh;
+        height: 20vh;
+        width: 120px;
     }
 
     .section1 .special .img1 {
-        width: 8vw;
-        height: 12vh;
+        width: 10vw;
+        height: 15vh;
     }
 
     .section1 .special .div2 {
         margin-left: 1%;
     }
 
+    .section1 .special .div2 p {
+        font-size: 9.5px;
+    }
+
     .special h3 {
-        font-size: 17px;
+        font-size: 9.5px;
     }
 
     .special strike {
-        font-size: 1vw;
+        font-size: 1.3vw;
         padding-left: 4%;
     }
 
     .section1 .special fieldset:nth-child(3) .img1 {
-        height: 12vh;
+        width: 11vw;
 
     }
 
     .section1 .special fieldset:nth-child(4) .img1 {
-        height: 12vh;
-        width: 8vw;
+
+        width: 11vw;
     }
 
     .section1 .special fieldset:nth-child(5) .img1 {
-        width: 8vw;
+        width: 11vw;
     }
 
     .section1 .special fieldset:nth-child(6) .img1 {
-        width: 8vw;
+        width: 11vw;
     }
 
     .section1 .special fieldset:nth-child(7) .img1 {
-        width: 8vw;
-        height: 12vh;
+        width: 10vw;
     }
 
-    .section1 .special fieldset:nth-child(8) .img1 {
-        height: 12vh;
+
+    .background {
+        width: 136.5vw;
     }
 
 }
@@ -230,7 +241,6 @@ section {
 
 .section2 {
     width: 68vw;
-    display: inline-block;
 }
 
 .txtsrch {
@@ -252,15 +262,20 @@ section {
     border: 0px;
 }
 
-.call-icon {
-    height: 4.5vh;
-    margin-left: 12%;
+.call {
+    margin-top: -32px;
 }
 
-.tel-no {
+.call-icon {
+    height: 4.5vh;
+    margin-left: 680px;
+}
+
+h2 {
     font-size: 1.5vw;
     font-family: fantasy;
-
+    margin-left: 720px;
+    margin-top: -25px;
 }
 
 nav {
@@ -295,7 +310,7 @@ nav {
     height: 0px;
     padding-bottom: 37%;
     overflow: hidden;
-    position: relative;
+
 }
 
 .fling-minislide img {
@@ -303,7 +318,8 @@ nav {
     animation: fling-minislide 20s infinite;
     opacity: 0;
     width: 100%;
-
+    width: 920px;
+    height: 340px;
 }
 
 @keyframes fling-minislide {
@@ -509,127 +525,182 @@ legend {
 @media (max-width:768px) {
 
     .txtsrch {
-        margin-left: 8%;
-        margin-top: 15%;
-        width: 23vw;
+        margin-left: 23%;
+        margin-top: 20%;
+        width: 28vw;
         height: 4vh;
         border: 1px right #d5d5e6;
 
     }
 
     .txtsrch[placeholder] {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .btnsrch {
         height: 4.5vh;
+        width: 10vw;
     }
 
     .call-icon {
         height: 4vh;
-        margin-left: 12%;
+        margin-left: 96%;
+
     }
 
-    .tel-no {
-        font-size: 2vw;
+    h2 {
+        font-size: 3vw;
         font-family: fantasy;
+        margin-left: 110%;
+    }
 
+    nav {
+        margin-top: 12vh;
+        margin-left: 15%;
+        width: 130%;
     }
 
     .menuitem {
-        font-size: 1.8vw;
+        font-size: 2.2vw;
+    }
+
+    .fling-minislide img {
+        margin-left: 12%;
+        width: 350px;
+        height: 170px;
     }
 
     .content1 {
-        width: 100%;
-        height: 22vh;
-        margin-top: 3vh;
+        width: 130%;
+        height: 25vh;
+        margin-top: 14vh;
+        margin-left: 15%;
     }
+
+
 
     .content1 .inner1 .img1 {
-        width: 18vw;
+        width: 22vw;
         height: 25vh;
     }
+
+
 
     .content1 .inner2 .img2 {
-        width: 18vw;
+        width: 22vw;
         height: 25vh;
     }
 
-    .featuredpara {
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-        padding: 2vh 65vw 1vw 2vh;
-        font-size: 20px;
+    .innertitle1 {
+        margin-left: 5%;
     }
 
-    .products {
-        height: 40vh;
+    .innertitle2 {
+        margin-left: 50%;
     }
 
-    .products fieldset {
-
-        padding-top: 0vh;
+    .innertitle1,
+    .innertitle2 {
+        margin-top: 3%;
     }
 
-    .products .col1 .img1 {
-        height: 13vh;
-    }
-
-    .products .col2 .img1 {
-        height: 13vh;
-    }
-
-    .products .col3 .img1 {
-        height: 13vh;
-    }
-
-    .products h3 {
-        padding-top: 2vh;
+    .content1 h3 {
         color: #04bfbf;
     }
 
+    .content1 .para1 {
+        font-size: 8.5px;
+    }
+
+    .content1 .btn {
+        font-size: 10px;
+    }
+
+    .featuredpara {
+        margin-left: 15%;
+        padding: 2vh 82vw 2vw 4vh;
+        font-size: 20px;
+        margin-top: 4vw;
+    }
+
+    .products {
+        margin-left: 15%;
+        width: 62vw;
+        height: 52vh;
+    }
+
+    .products .col1,
+    .col2 {
+        margin-right: 1vw;
+    }
+
+    .products .col1 .img1 {
+        width: 22vw;
+        height: 17vh;
+        padding-left: 12%;
+    }
+
+    .products .col2 .img1 {
+        width: 22vw;
+        height: 17vh;
+        padding-left: 8%;
+    }
+
+    .products .col3 .img1 {
+        width: 22vw;
+        height: 17vh;
+        padding-left: 8%;
+    }
+
+    .products h3 {
+        padding-top: 4vh;
+        color: #04bfbf;
+        font-size: 3.5vw;
+    }
+
     .products strike {
-        font-size: 1vw;
+        font-size: 1.5vw;
         padding-left: 3%;
 
     }
 
-    .background {
-        width: 105vw;
+    .products h4 {
+        font-size: 3.5vw;
+    }
+
+    .products p {
+        font-size: 2.5vw;
     }
 
     .footer {
-        width: 100vw;
-        height: 30vh;
-        padding-top: 5%;
-        margin-left: -33.5vw;
+        margin-left: -34vw;
     }
 
     .footer .outer {
-        width: 105vw;
-        height: 25vh;
+
+        width: 136.58vw;
+
     }
 
     .footer .inner {
-        width: 25%;
-        margin-left: 9%;
+
+        margin-left: 5%;
+
     }
 
     .footer .inner2 {
-        width: 30%;
-        height: 50%;
+
+        margin-left: 5%;
+
     }
 
     .footer .copyright {
-        width: 105vw;
-        height: 20px;
+        width: 136.58vw;
     }
 
     .footer .copyright span {
-        margin-left: 10vw;
+        margin-left: 8vw;
+
     }
 
-}
-
-/* ********* */
+    /* ********* */
