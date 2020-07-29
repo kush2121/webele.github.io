@@ -177,6 +177,7 @@ section {
     .section1 .para1 {
         font-size: 20px;
         width: 120px;
+        margin-top: 20px;
     }
 
     .section1 .special fieldset {
