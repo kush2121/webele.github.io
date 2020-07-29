@@ -567,7 +567,7 @@ legend {
 
     .fling-minislide img {
         margin-left: 12%;
-        width: 400px;
+        width: 415px;
         height: 170px;
     }
 
@@ -619,7 +619,7 @@ legend {
 
     .featuredpara {
         margin-left: 15%;
-        padding: 2vh 95vw 2vw 4vh;
+        padding: 2vh 98vw 2vw 4vh;
         font-size: 20px;
         margin-top: 4vw;
     }
@@ -632,7 +632,7 @@ legend {
 
     .products .col1,
     .col2 {
-        margin-right: 7vw;
+        margin-right: 9vw;
     }
 
     .products .col1 .img1 {
