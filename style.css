@@ -556,12 +556,12 @@ legend {
 
     nav {
         margin-top: 12vh;
-        margin-left: 2%;
-        width: 150%;
+        margin-left: -8%;
+        width: 180%;
     }
 
     .menuitem {
-        font-size: 1.5vw;
+        font-size: 8px;
     }
 
     .fling-minislide img {
